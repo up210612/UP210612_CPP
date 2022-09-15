@@ -10,9 +10,11 @@ Descripción: Muestra los diferentes tipos de datos en c++
 /* Librería para el usp de printf y scanf <cstudio> también se puede usar */
 #include <stdio.h>
 
+#define PI 3.1416
 //Uso del namescpace para evitar el std::
 using namespace std; 
 
+const float pi =3.1415;
 // FUnción principal de tipo entero
 int main( )
 {
@@ -26,6 +28,9 @@ int main( )
     cout<< "EL numero entero es: " << entero << endl;
     cout<< "El tamaño del entero es: " <<sizeof (entero) << "bytes" << endl;
     cout<< "El caracter char es: " << caracter << endl; 
+    cout<< "El tamaño del char es: " <<sizeof (caracter) << "bytes" << endl;
+    cout<< "El valor de PI es: " << PI << endl; 
+    cout<< "El valor de pi es: " << pi << endl; 
     getchar(); //Para correr en terminal
 
     /*
