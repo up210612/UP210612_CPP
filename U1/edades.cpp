@@ -14,18 +14,16 @@ int main ( )
         {
             printf ("Primera edad");
 
-        } else 
-                if (edad>= 31 && edad <=60)
+        } else if (edad>= 31 && edad <=60)
                 {
                     printf ("Segunda edad");
 
-                } else 
-                        if (edad>= 61 && edad <=90)
-                        {   
-                            printf ("tercera edad");
+        } else if (edad>= 61 && edad <=90)
+                {   
+                    printf ("tercera edad");
 
-                        } else 
-                                printf ("Horas extras");
+        } else 
+                printf ("Horas extras");
 
         
     } else printf ("Edad ingresada no válida");

@@ -20,12 +20,10 @@ int main ( )
         if (renta <= 20000)
         {
             printf("Le corresponde un importe del 15%");
-        }else 
-            if (renta<= 35000)
+        }else if (renta<= 35000)
             {
                 printf("Le corresponde un impuesto del 20%");
-            }else 
-                if (renta <= 60000)
+            }else if (renta <= 60000)
                { printf("EL impuesto que le corresponde es del 30%");
 
                  }else printf("El impuesto que le corresponde es del 45%");
