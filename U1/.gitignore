@@ -1,3 +1,5 @@
-*.exe
 
-personal/
+*.circ
+!*.c
+!Makefile
+Personal
