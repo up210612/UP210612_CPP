@@ -4,4 +4,4 @@
 *.o
 *.so
 *.a
-*.elf
+find . -perm /111 -type f | sed 's#^./##' | sort | diff -u .gitignore -
