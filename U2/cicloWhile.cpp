@@ -4,15 +4,18 @@ using namespace std;
 
 int main ( ){
 
-    char d;
+    
+    int i;
     int n;
-
+    // Impresion de tablas de multiplicar solicitada por el usuario
+    char d;
+    
     do
     {
         cout<< "¿Qué tabla de multiplicar desea ver?"<<endl;
         cin>> n;
         cout<< "La tabla del " << n << endl;
-        for (int i=1; i<=10;i++){
+        for (i=1; i<=10;i++){
 
     
             cout << n << " x " << i << " = " << n*i << endl;
@@ -24,6 +27,26 @@ int main ( ){
     } while (d== 'y' || d== 'Y');
     
 
+        
+
+//Impresion de tablas hasta determinado numero
+
+int y;
+cout  << "¿Hasta que tabla de multiplicar desea ver?" << endl;
+cin>> y;
+for (i = 1; i <= y; i++)
+    {
+    
+        for (n = 1; n <=10; n++)
+        {
+        cout << n << " x " << i << " = " << n*i << endl;
+
+        }
+    
+        cout<<endl;
+    
+    }
+
+    return 0;
+
 }
-
-
