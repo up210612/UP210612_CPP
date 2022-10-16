@@ -1,6 +1,6 @@
 
 
-<center> 
+<div align="center">
 
 # _Sara's README_ 
 ![gif](U1/imagenes/pengu.gif) </center>
@@ -9,7 +9,7 @@
 
 **Welcome** 
 
-<center>
+</div>
 
 _I'm Sara Itzel Garcia Vidal. My id is UP210612. And i'm currently on ISC03A._</center>
 
