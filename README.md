@@ -25,6 +25,8 @@ Hey! You're still here :)
 
 Well thanks for that. Now let's get into the important stuff. 
 
+<div align="center">
+
 | Unit | Name  |
 | ----- | ------ |
 | U1 |  Programing introduction|
@@ -32,6 +34,7 @@ Well thanks for that. Now let's get into the important stuff.
 | U3 |  Functions |
 | U4 | Files & arrays | 
 
+</div>
 
 
 ## So now, please let me show you some of the GIT commands I've been ussing a lot. 
