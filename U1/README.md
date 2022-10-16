@@ -21,4 +21,4 @@ _Description:_ Student most do a program in which she'll print a Hello world
 width='500' /> </div>
 
 
-:sparkles:
+:octocat: :octocat: :octocat: :octocat: :octocat: :octocat: :octocat: :octocat: :octocat: :octocat:
