@@ -1,6 +1,6 @@
 <div align=center>
 
-#  _Unit 1 README_ 
+# :sparkles: _Unit 1 README_ :sparkles:
 
 
 <img alt="calavera" src= 'imagenes/calavera.gif'
