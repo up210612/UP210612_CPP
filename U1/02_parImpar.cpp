@@ -1,3 +1,9 @@
+/*
+    Unidad 1 - Par o impar
+    Autor: Sara Itzel Garcia VIdal
+    Descripción: Muestra mensaje par o impar
+*/
+
 #include <iostream>
 using namespace std;
 

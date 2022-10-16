@@ -10,14 +10,22 @@ width='300' />
 
 ## Programs done in this unit: </div>
 
- :octocat: <a href="https://github.com/up210612/UP210612_CPP/blob/main/U1/01_hola.cpp"> - *_First program: Hola.cpp_* </a> :octocat:
+ <h2> :octocat: <a href="https://github.com/up210612/UP210612_CPP/blob/main/U1/01_hola.cpp"> - *_First program: Hola.cpp_* </a> </h2>
+
+<h3>
+
+_Description:_ Student must do a program in which she'll print a Hello world </h3>
 
 
-_Description:_ Student most do a program in which she'll print a Hello world 
+![p1](imagenes/hola_cpp.png) 
 
 
-<div align= center> <img alt="ejecution" src= 'imagenes/hola_cpp.png'
-width='500' /> </div>
 
 
-:octocat: <a href="https://github.com/up210612/UP210612_CPP/blob/main/U1/02_parImpar.cpp"> - *_Second program: ParImpar.cpp_* </a>
+ <h2>  :octocat: <a href="https://github.com/up210612/UP210612_CPP/blob/main/U1/02_parImpar.cpp"> - *_Second program: ParImpar.cpp_* </a> </h2>
+
+<h3>  
+
+_Description:_  A program that allows the student to print a short message of "Par o Impar" </h3>
+
+![p2](imagenes/parImp.png) 
