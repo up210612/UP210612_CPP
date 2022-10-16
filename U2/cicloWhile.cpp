@@ -2,7 +2,7 @@
 #include <stdio.h>
 using namespace std;
 
-int main ( ){
+int main (){
 
     
     int i;
