@@ -9,9 +9,9 @@
 
 **Welcome** 
 
-</div>
 
-_I'm Sara Itzel Garcia Vidal. My id is UP210612. And i'm currently on ISC03A._</center>
+
+_I'm Sara Itzel Garcia Vidal. My id is UP210612. And i'm currently on ISC03A._</div>
 
 Here you'll be able to find what i'm suppoued to learn on this quarter. However I would like to leave this warning that you should remember whenever you're trying to understand how my program works: 
 
