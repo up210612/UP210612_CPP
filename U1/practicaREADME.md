@@ -3,7 +3,7 @@
 Sara Itzel Garcia Vidal 
 
 ### _Aquí amamos los pingüinos :)_   </center>
-![pinguino](U1/imagenes/_106598098_gettyi33758.jpg)
+![pinguino](imagenes/_106598098_gettyi33758.jpg)
 
 # Pingüinos
 **Texto en negritas**  
@@ -64,7 +64,7 @@ int main ( )
   
 
 <div align="center">
-<img alt="pinguino2" src= 'U1/imagenes/pinguino2.jpg'
+<img alt="pinguino2" src= 'imagenes/pinguino2.jpg'
 width='400' />
 </div>
 
