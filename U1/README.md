@@ -10,27 +10,51 @@ width='300' />
 
 ## Programs done in this unit: </div>
 
- <h2><a href="https://github.com/up210612/UP210612_CPP/blob/main/U1/01_hola.cpp"> 
+ <h2> 
  
- :octocat: - _First program: Hola.cpp_ </a> </h2>
+ :octocat: - _First program: Hola.cpp_  </h2>
 
 <h3>
 
 _Description:_ Student must do a program in which she'll print a Hello world </h3>
 
 
+```
+#include <iostream>
+
+using namespace std;
+int main(){
+
+    cout << "Hola Mundo"<< endl;
+    return 0;
+
+}
+```
+
+_Results_
+
 ![p1](imagenes/hola_cpp.png) 
 
 
-
-
  <h2>
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U1/02_parImpar.cpp">  
  
- :octocat: -_Second program: ParImpar.cpp_ </a> </h2>
+ :octocat: -_Second program: ParImpar.cpp_ </h2>
 
 <h3>  
 
 _Description:_  A program that allows the student to print a short message of "Par o Impar" </h3>
+
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout <<"Par o Impar"<< endl<<endl; // (/n) para salto de linea//
+
+    return 0;
+}
+```
+_Results_
 
 ![p2](imagenes/parImp.png) 

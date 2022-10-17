@@ -3,7 +3,7 @@
 <div align="center">
 
 # _Sara's README_ 
-![gif](U1/imagenes/pengu.gif) </center>
+![gif](U1/imagenes/pengu.gif) 
 
 
 
