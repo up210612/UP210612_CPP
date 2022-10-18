@@ -1,6 +1,5 @@
 /* Unidad 1. Tipos de datos
 Autor: Sara Itzel Garcia Vidal
-Fechas: 27/09/2022
 Descripción: Impresión del abecedario"*/
 
 // Imprimir de la Z a la A

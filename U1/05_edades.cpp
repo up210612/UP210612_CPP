@@ -4,6 +4,9 @@ using namespace std;
 
 int main ( )
 {
+   char a; 
+   
+    do {    
     int edad;
     printf ("¿Cuántos años tiene? ");
     scanf ("%d",&edad);
@@ -27,9 +30,11 @@ int main ( )
 
         
     } else printf ("Edad ingresada no válida");
-
+        cout<< "¿Desea ingresar otra edad? (y/n)"<<endl;
+        cin>> a; 
       
-
+    } while (a == 'y' || a=='Y'); 
 
 
 }
+
