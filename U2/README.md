@@ -3,7 +3,7 @@
 # :sparkles: _Unit 2 README_ :sparkles:
 
 
-<img alt="cat" src= 'imagenes/cat.gif'
+<img alt="cat" src= 'imagenes_u2/cat.gif'
 width='300' />
 
 
@@ -11,7 +11,7 @@ width='300' />
 ## Programs done in this unit: </div>
  
  <h2> 
- *PDF exercises*
+ - PDF exercises
  
  :octocat: - _First program: impuestos.cpp_  </h2>
 
@@ -54,7 +54,9 @@ return 0;
 
 _Results_
 
-![p1](imagenes/hola_cpp.png) 
+![p1](imagenes_u2/impuesto1.png) 
+![p1](imagenes_u2/impu2.png) 
+
 
 
  <h2>
@@ -113,7 +115,7 @@ int main ( ){
 ```
 _Results_
 
-![p2](imagenes/parImp.png) 
+![p2](imagenes_u2/empleados.png) 
 
   <h2>
 
@@ -153,7 +155,9 @@ int main (){
 ```
 _Results_
 
-![p2](imagenes/tipdat.png) 
+![p2](imagenes_u2/juegos1.png) 
+![p2](imagenes_u2/juego2.png) 
+
 
 
   <h2>
@@ -214,7 +218,9 @@ int main(){
 ```
 _Results_
 
-![p2](imagenes/ciclo.png) 
+![p2](imagenes_u2/pizza1.png) 
+![p2](imagenes_u2/pizza2.png) 
+
  
  
  <h2>
@@ -254,7 +260,7 @@ int main()
 ```
 _Results_
 
-![p2](imagenes/edad.png) 
+![p2](imagenes_u2/temp.png) 
 
  <h2>
 
@@ -291,7 +297,7 @@ int main(){
 ```
 _Results_
 
-![p2](imagenes/abc.png) 
+![p2](imagenes_u2/productos.png) 
 
 <h2>
 
@@ -332,5 +338,5 @@ int main (){
 ```
 _Results_
 
-![p2](imagenes/abc.png) 
+![p2](imagenes_u2/bin2dec.png) 
 
