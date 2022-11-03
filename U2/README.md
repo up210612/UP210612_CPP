@@ -3,43 +3,51 @@
 # :sparkles: _Unit 2 README_ :sparkles:
 
 
-<img alt="calavera" src= 'imagenes/calavera.gif'
+<img alt="cat" src= 'imagenes/cat.gif'
 width='300' />
 
 
 
 ## Programs done in this unit: </div>
-
- <a href="https://github.com/up210612/UP210612_CPP/tree/main/U1#-octocat---first-program-holacpp--"> :white_small_square: - First Program: Hola.cpp</a>
-
- <a href="https://github.com/up210612/UP210612_CPP/tree/main/U1#octocat--second-program-parimparcpp-"> :white_small_square: - Second program: ParImpar.cpp</a>
-
- <a href="https://github.com/up210612/UP210612_CPP/tree/main/U1#octocat--third-program-tiposdatoscpp-">:white_small_square: - Third program: TiposDatos.cpp</a>
-
- <a href="https://github.com/up210612/UP210612_CPP/tree/main/U1#octocat--fourth-program-cicloscpp-">:white_small_square: - Fourth program: ciclos.cpp</a>
-
- <a href="https://github.com/up210612/UP210612_CPP/tree/main/U1#octocat--fifth-program-edadescpp-">:white_small_square: - Fifth program: edades.cpp</a>
-
- <a href="https://github.com/up210612/UP210612_CPP/tree/main/U1#octocat--sixth-program-abccpp-">:white_small_square: - Sixth program: abc.cpp</a>
-
  
  <h2> 
+ *PDF exercises*
  
- :octocat: - _First program: Hola.cpp_  </h2>
+ :octocat: - _First program: impuestos.cpp_  </h2>
 
 <h3>
 
-_Description:_ Student must do a program in which she'll print a Hello world </h3>
+_Description:_ Write a program that asks the user for his annual income and displays the tax due. </h3>
 
 
 ```
-#include <iostream>
-
+#include<iostream>
+#include <stdio.h>
 using namespace std;
-int main(){
 
-    cout << "Hola Mundo"<< endl;
-    return 0;
+int main ( )
+{
+
+   int renta;
+    printf ("¿De cuánto es su renta anual? ");
+    scanf("%d", &renta);
+
+    if (renta> 10000)
+{
+        if (renta <= 20000)
+        {
+            printf("Le corresponde un importe del 15%");
+        }else if (renta<= 35000)
+            {
+                printf("Le corresponde un impuesto del 20%");
+            }else if (renta <= 60000)
+               { printf("EL impuesto que le corresponde es del 30%");
+
+                 }else printf("El impuesto que le corresponde es del 45%");
+
+}else printf("Le corresponde un impuesto del 5%");
+
+return 0;
 
 }
 ```
@@ -51,22 +59,57 @@ _Results_
 
  <h2>
  
- :octocat: -_Second program: ParImpar.cpp_ </h2>
+ :octocat: -_Second program: rendimiento.cpp_ </h2>
 
 <h3>  
 
-_Description:_  A program that allows the student to print a short message of "Par o Impar" </h3>
+_Description:_  Write a program that reads the user's score and indicates his performance level, as well as the amount of money the user will receive. </h3>
 
 ```
-#include <iostream>
+
+#include<iostream>
+#include <stdio.h>
+#include <cmath>
 using namespace std;
 
-int main()
-{
-    cout <<"Par o Impar"<< endl<<endl; // (/n) para salto de linea//
+int main ( ){
+ 
+  char ev;
+ do
+ {
 
-    return 0;
+    char op;
+    int valor=2400;
+
+    cout<<"La puntuación de su empleado fue"<< endl<< "a) 0.0" << endl << "b) 0.4" << endl<< "c) 0.6"<<endl;
+    cin>> op; 
+
+    switch (op)
+    {
+    case 'a':
+        cout<< "El nivel de rendimiento del empleado fue inaceptable, por lo que se le otorga un beneficio de $" << 0.0*valor << endl; 
+        break;
+
+    case 'b':
+        cout<< "El nivel de rendimiento del empleado fue aceptable, por lo que se le otorga un beneficio de $" << 0.4*valor << endl; 
+        break;
+
+    case 'c':
+        cout<< "El nivel de rendimiento del empleado fue meritorio, por lo que se le otorga un beneficio de $" << 0.6*valor << endl;
+        break;
+
+    default:
+        cout<< "Opción ingresada no válida."<<endl; 
+        break;
+    }
+
+    cout<< "¿Desea evaluar a otro empleado? (y/n)"<<endl;
+    cin>> ev;
+    
+ }  while  (ev == 'y' || ev == 'Y');
+
 }
+
 ```
 _Results_
 
@@ -74,34 +117,38 @@ _Results_
 
   <h2>
 
- :octocat: -_Third program: TiposDatos.cpp_ </h2>
+ :octocat: -_Third program: salaJuegos.cpp_ </h2>
 
 <h3>  
 
-_Description:_  A program where they can play around with the different types of variables that can be used in their code. (char, int, float, doble...)" </h3>
+_Description:_  Write a program for a company that has arcades for all ages and wants to automatically calculate the price it should charge its customers to enter. </h3>
 
 ```
-int main( )
-{
+#include <iostream>
+#include <stdio.h>
+using namespace std;
 
-    int unsigned entero = 2147483647;
-    float flotante= 3.4e38;
-    double grande =2.23585215828441;
-    char caracter= 'A';
+int main (){
+    
+    int e;
+    cout << "¿Qué edad tiene?" << endl;
+    cin>>e;
 
-    cout<< "Este programa muestra los tipos de datos. \n";
-    cout<< "EL numero entero es: " << entero << endl;
-    cout<< "El tamaño del entero es: " <<sizeof (entero) << "bytes" << endl;
-    cout<< "El caracter char es: " << caracter << endl; 
-    cout<< "El tamaño del char es: " <<sizeof (caracter) << "bytes" << endl;
-    cout<< "El valor de PI es: " << PI << endl; 
-    cout<< "El valor de pi es: " << pi << endl; 
-    getchar(); //Para correr en terminal
+    if (e>=4)
+    {
+        if (e>18){
 
-    /*
-    cout<< 
-    */
-    return 0;
+            cout<< "Precio de su entrada es de $10"<<endl;
+
+        }else
+
+            cout<<"Precio de su entrada  es de $5"<<endl;
+
+    } else 
+
+        cout<< "Puede entrar gratis"<<endl;
+
+
 }
 ```
 _Results_
@@ -111,41 +158,59 @@ _Results_
 
   <h2>
 
- :octocat: -_Fourth program: Ciclos.cpp_ </h2>
+ :octocat: -_Fourth program: pizza.cpp_ </h2>
 
 <h3>  
 
-_Description:_  Introduction to cycles using the structure IF to add even and odd numbers respectively. And finally add up both results. </h3>
+_Description:_  Write a program that asks the user what kind of pizza he prefers with all the ingredients to choose. </h3>
 
 ```
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
-int main()
-{
-    int n = 10;
-    int impar = 0;
-    int par = 0;
-    for (int i = 0; i <= n; i++)
-    {
-        if (i %2 == 0)
-        {
-            par = par +i;
-            
-        } else {
-            impar= impar+i;
-            // Tambien se puede poner com suma+=i;
-        }
-        
-    }
+int main(){
 
-    printf("La suma de los pares es %d \n", par);
-    printf ("La suma de los impares es %d \n", impar);
-    int suma= par+impar;
-    printf ("La suma total es de %d \n", suma);
+    char res;
+    char select;
     
-    return 0;
+    cout << "Bienvenido a Bella Napoli" << endl;
+    cout << "¿Desea ordenar una pizza vegetaria? (y/n)" << endl;
+    cin >>res;
+
+    if (res == 'y' || res == 'Y'){
+
+        
+        cout << "Seleccione el ingrediente que quiere agregar a su pizza (a/b)"<< endl;
+        cout << "a) Pimiento" << endl << "b) Tofu"<< endl;
+        cin >> select;
+
+        if(select == 'a'){
+            cout << "Pizza vegetariana con Pimiento" << endl;
+        } else {
+            cout << "Pizza vegetariana con Tofu" << endl;
+        }
+    } else {
+
+        cout << "Seleccione el ingrediente que quiere agregar a su pizza (a/b/c)" << endl;
+        cout << "a) Peperoni" << endl << "b) Jamón"<< "c)Salmón" << endl;
+        cin >> select;
+
+        if (select == 'a' || select == 'b'){
+
+            if (select == 'a'){
+
+                cout << "Pizza no vegetariana con Peperoni" << endl;
+            } else {
+                cout << "Pizza no vegetariana con Jamón" << endl;
+                }
+        } else {
+            cout << "Pizza no vegetariana con Salmón" << endl;
+        }
+    }
 }
+
+
 ```
 _Results_
 
@@ -154,50 +219,37 @@ _Results_
  
  <h2>
 
- :octocat: -_Fifth program: edades.cpp_ </h2>
+ :octocat: -_Fifth program: temperatura.cpp_ </h2>
 
 <h3>  
 
-_Description:_  A program in which according to the age of the usser, a special message will be deliverd. </h3>
+_Description:_  Make a program in which you enter 6 temperatures and determine the average, the lowest and the highest one. </h3>
 
 ```
 #include <iostream>
-#include <stdio.h>
 using namespace std;
 
-int main ( )
+int main()
 {
-   char a; 
-   
-    do {    
-    int edad;
-    printf ("¿Cuántos años tiene? ");
-    scanf ("%d",&edad);
-
-    if (edad>= 1 && edad <=150)
+    float t, sum=0, max=-100, min=100;
+    for (int i = 0; i < 6; i++)
     {
-        if (edad >=1 && edad <= 30)
+        cout<<"Ingrese la temperatura: "<<i+1<<endl;
+        cin>>t;
+        sum=sum+t;
+        if (min>t)
         {
-            printf ("Primera edad");
-
-        } else if (edad>= 31 && edad <=60)
-                {
-                    printf ("Segunda edad");
-
-        } else if (edad>= 61 && edad <=90)
-                {   
-                    printf ("tercera edad");
-
-        } else 
-                printf ("Horas extras");
-
-        
-    } else printf ("Edad ingresada no válida");
-        cout<< "¿Desea ingresar otra edad? (y/n)"<<endl;
-        cin>> a; 
-      
-    } while (a == 'y' || a=='Y'); 
-
+            min=t;
+        }
+        if (max<t)
+        {
+            max=t;
+        }
+    }
+    cout<<"El promedio de las temperaturas es: "<<sum/6<<" ºC"<<endl;
+    cout<<"La temperatura minima es: "<<min<<" ºC"<<endl;
+    cout<<"La temperatura maxima es: "<<max<<" ºC"<<endl;
+    return 0;
 }
 ```
 _Results_
@@ -206,59 +258,77 @@ _Results_
 
  <h2>
 
- :octocat: -_Sixth program: abc.cpp_ </h2>
+ :octocat: -_Sixth program: productos.cpp_ </h2>
 
 <h3>  
 
-_Description:_  A program that will print the abecedary in different order and in lower or uppercase. It will also show numbers from 1 to 10. All using cycles for.  </h3>
+_Description:_ Create a program that reads indefinitely quantities of products and their price, and at the end shows the total.  </h3>
 
 ```
 #include <iostream>
 #include <stdio.h>
 using namespace std;
 
-int main()
-{
+int main(){
 
-    char letra = 'Z';
-    for (int i = 0; i < 26; i++)
-    {
-        cout << letra << "\t";
-        letra = letra - 1;
-    }
-    cout << endl;
-    cout << endl;
+    int i=1;
+    int precio, sum=0; 
 
-    // Imprimir en mayúsculas y minúsculas
+    cout<< "Sumador de productos indefinidos. "<<endl<<"Nota: En caso de ya no querer agregar más productos, ingrese 0"<< endl;
 
-    letra = 'A';
-    for (int i = 0; i < 26; i++)
-    {
-        cout << letra << "\t";
-        letra = letra + 1;
-    }
-    cout << endl;
-    cout << endl;
-
-    char letra1 = 'a';
-    for (int i = 0; i < 26; i++)
-    {
-        cout << letra1 << "\t";
-        letra1 = letra1 + 1;
-    }
-    cout << endl;
-    cout << endl;
-
-    // Del 1 al 10
-
-    
-    for (int i = 1; i < 11; i++)
-    {
-        cout << i << "\t";
+    do
+    {  
         
-    }
+       cout << "Ingrese el precio de su producto "<< i << endl;
+       cin>> precio; 
+       sum=sum+precio;
+       i++;
+    } while (precio != 0);
+    
+    cout<< "Usted compró "<<i-2<<" productos. Con costo total de $"<< sum<<endl;
     return 0;
 }
+```
+_Results_
+
+![p2](imagenes/abc.png) 
+
+<h2>
+
+ :octocat: -_Seventh program: bin2dec.cpp_ </h2>
+
+<h3>  
+
+_Description:_ Create a program that performs binary to decimal conversion.  </h3>
+
+```
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+using namespace std; 
+
+int main (){
+
+    string bin; 
+    int largo,i, sum=0;
+    cout<< "Ingrese número binario a convertir. Sin espacios."<<endl; 
+    cin>>bin; 
+    largo= bin.length();
+  
+    for (i = largo-1; i>=0; i--)
+    {
+        if (bin[i]== '1')
+        {
+            sum=  sum + pow(2,((largo-1)-i));
+        }
+     
+    }
+
+    cout << "EL número ingresado, en decimal es igual a "<< sum<<endl;
+    
+
+}
+
 ```
 _Results_
 

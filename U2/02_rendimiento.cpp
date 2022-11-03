@@ -1,6 +1,5 @@
 /* Unidad 2. Impuestos
 Autor: Sara Itzel Garcia Vidal
-Descripción: resolución del ejercicio 1 "Impuestos"
 */
 
 

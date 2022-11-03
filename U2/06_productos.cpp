@@ -19,4 +19,5 @@ int main(){
     } while (precio != 0);
     
     cout<< "Usted compró "<<i-2<<" productos. Con costo total de $"<< sum<<endl;
+    return 0;
 }
