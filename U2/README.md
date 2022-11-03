@@ -358,6 +358,6 @@ _Results_
 
  <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/compraProd.cpp">:white_small_square: - Compra productos.cpp</a>
 
- <a href="hhttps://github.com/up210612/UP210612_CPP/blob/main/U2/rentas.cpp">:white_small_square: - Rentas.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/rentas.cpp">:white_small_square: - Rentas.cpp</a>
 
  <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/switchCase.cpp">:white_small_square: - Switch Case.cpp</a>
