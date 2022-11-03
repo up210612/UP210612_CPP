@@ -342,7 +342,7 @@ _Results_
 
 
 
-## Exercises done in this unit: </div>
+## Class exercises done in this unit: </div>
 
  <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/E05BreakCOntinuos.cpp"> :white_small_square: - Break Continous.cpp</a>
 
