@@ -3,7 +3,7 @@
 # :sparkles: _Unit 3 README_ :sparkles:
 
 
-<img alt="cat" src= 'imagenes_u2/cat.gif'
+<img alt="cat" src= 'image/gif.gif'
 width='300' />
 
 
@@ -73,8 +73,8 @@ int main()
 
 _Results_
 
-![p1](imagenes_u2/impuesto1.png) 
-![p1](imagenes_u2/impu2.png) 
+![p1](image/01.png) 
+
 
 
 
@@ -107,7 +107,7 @@ int main (){
 ```
 _Results_
 
-![p2](imagenes_u2/empleados.png) 
+![p1](image/02.png)  
 
   <h2>
 
@@ -148,9 +148,7 @@ int main (){
 ```
 _Results_
 
-![p2](imagenes_u2/juegos1.png) 
-![p2](imagenes_u2/juego2.png) 
-
+![p1](image/03.png) 
 
 
   <h2>
@@ -222,8 +220,7 @@ int main()
 ```
 _Results_
 
-![p2](imagenes_u2/pizza1.png) 
-![p2](imagenes_u2/pizza2.png) 
+![p1](image/04.png) 
 
  
  
@@ -268,7 +265,7 @@ int main()
 ```
 _Results_
 
-![p2](imagenes_u2/temp.png) 
+![p1](image/05.png) 
 
  <h2>
 
@@ -314,7 +311,7 @@ int main()
 ```
 _Results_
 
-![p2](imagenes_u2/productos.png) 
+![p1](image/06.png) 
 
 <h2>
 
@@ -367,8 +364,7 @@ int main()
 ```
 _Results_
 
-![p2](imagenes_u2/bin2dec.png) 
-
+![p1](image/07.png) 
 <h2>
 
  :octocat: -_Eight program: 08-oVec.cpp_ </h2>
@@ -420,7 +416,7 @@ int main()
 ```
 _Results_
 
-![p2](imagenes_u2/bin2dec.png) 
+![p1](image/08.png) 
 
 <h2>
 
@@ -452,8 +448,7 @@ int factorial(int n) {
 ```
 _Results_
 
-![p2](imagenes_u2/bin2dec.png) 
-
+![p1](image/09.png) 
 <h2>
 
  :octocat: -_Extra-Personal Library: sara.h_ </h2>
