@@ -527,7 +527,7 @@ bool esBisiesto(int year)
 
  <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/atoi.cpp"> :white_small_square: - atoi.cpp</a>
 
- <a href="hhttps://github.com/up210612/UP210612_CPP/blob/main/U3/ej1_vect.cpp">:white_small_square: - ejercicios de vectores.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/ej1_vect.cpp">:white_small_square: - ejercicios de vectores.cpp</a>
 
  <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/exMatriz.cpp">:white_small_square: - Ejemplos matriz.cpp</a>
 
