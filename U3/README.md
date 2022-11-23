@@ -523,20 +523,20 @@ bool esBisiesto(int year)
 
 ## Class exercises done in this unit: </div>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/E05BreakCOntinuos.cpp"> :white_small_square: - Break Continous.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/Cadenas.cpp"> :white_small_square: - Cadenas.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/E06SUmatoria.cpp"> :white_small_square: - Sumatoria.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/atoi.cpp"> :white_small_square: - atoi.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/E07Factorial.cpp">:white_small_square: - Factorial.cpp</a>
+ <a href="hhttps://github.com/up210612/UP210612_CPP/blob/main/U3/ej1_vect.cpp">:white_small_square: - ejercicios de vectores.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/E11FUnciones.cpp">:white_small_square: - Funciones.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/exMatriz.cpp">:white_small_square: - Ejemplos matriz.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/E1_tablas.cpp">:white_small_square: - Tablas.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/fnMath.cpp">:white_small_square: - Funcion math.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/cicloWhile.cpp">:white_small_square: - Ciclo while.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/fn_char.cpp">:white_small_square: - Fn_char.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/compraProd.cpp">:white_small_square: - Compra productos.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/strings.cpp">:white_small_square: - strings.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/rentas.cpp">:white_small_square: - Rentas.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/sumaCol.cpp">:white_small_square: - Suma de columnas.cpp</a>
 
- <a href="https://github.com/up210612/UP210612_CPP/blob/main/U2/switchCase.cpp">:white_small_square: - Switch Case.cpp</a>
+ <a href="https://github.com/up210612/UP210612_CPP/blob/main/U3/matrices.cpp">:white_small_square: - matrices.cpp</a>
