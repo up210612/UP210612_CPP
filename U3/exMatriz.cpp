@@ -13,7 +13,7 @@ int main()
     cout << "Ingrese columnas" << endl;
     cin >> y;
     cout << endl;
-    //cout << endl;
+
 
     int ej[100][100];
     int valor = 1;
@@ -31,9 +31,7 @@ int main()
           return 0;
     }
 
-// tarea: suma por renglones y columnas
-
-
+// código completo se usa para obtener la matriz completa y acomodada.
 
  /*valor = valor + 1;
             ej[i][j] = valor;

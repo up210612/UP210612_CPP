@@ -22,7 +22,7 @@ int main( ){
     cout<< "Clear:  "<< texto<< endl;
 
     texto.swap(texto2);    
-    cout<< "swap:   "<< texto<<endl; 
+    cout<< "swap:   "<< texto<<endl;  
 
     return 0;
 }
