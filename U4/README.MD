@@ -151,6 +151,6 @@ _Results_
 
 _Flow chart:_
 
-![p1](image/1.png) 
-![p2](image/2.png) 
+![p1](image/1.jpg) 
+![p2](image/2.jpg) 
 
