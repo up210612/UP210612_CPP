@@ -144,3 +144,13 @@ int main()
 
 //si es impar es X, si es par, es O
 ```
+
+_Results_
+
+![p1](image/R.png) 
+
+_Flow chart:_
+
+![p1](image/1.png) 
+![p2](image/2.png) 
+
